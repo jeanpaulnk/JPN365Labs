@@ -1,6 +1,6 @@
 site_url: https://jeanpaulnk.github.io/SE-Exchange-Online-Lab-Notes/
 repo_url: https://github.com/jeanpaulnk/SE-Exchange-Online-Lab-Notes
-site_name: 'Exchange Online Lab Notes'
+site_name: 'SE-Exchange Online Lab Notes'
 site_description: 'Hands-on notes on Exchange Online mail flow, connectors and relays'
 edit_uri: edit/main/docs/
 docs_dir: 'docs'
