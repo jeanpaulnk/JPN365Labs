@@ -1,0 +1,65 @@
+{% if not page.is_homepage %}
+{% set share_url = page.canonical_url | urlencode %}
+{% set share_title = (page.title ~ " - " ~ config.site_name) | urlencode %}
+<style>
+.jpn-share{margin:2.5em 0 1em;padding-top:1em;border-top:1px solid var(--md-default-fg-color--lightest)}
+.jpn-share h2{margin:0 0 .6em;font-size:1.1em}
+.jpn-share-row{display:flex;flex-wrap:wrap;gap:.5em}
+.jpn-share-row a,.jpn-share-row button{display:inline-flex;align-items:center;gap:.4em;padding:.35em .8em;border-radius:2em;border:1px solid var(--md-default-fg-color--lighter);color:var(--md-default-fg-color);font-size:.75rem;background:none;cursor:pointer;text-decoration:none}
+.jpn-share-row a:hover,.jpn-share-row button:hover{color:#fff;background:#2e7d32;border-color:#2e7d32}
+.jpn-share-row svg{width:1.1em;height:1.1em;fill:currentColor}
+</style>
+<div class="jpn-share">
+<h2 id="__share">Share this article</h2>
+<div class="jpn-share-row">
+<a href="https://x.com/intent/post?url={{ share_url }}&text={{ share_title }}" target="_blank" rel="noopener" title="Share on X">{% include ".icons/fontawesome/brands/x-twitter.svg" %} X</a>
+<a href="https://www.linkedin.com/sharing/share-offsite/?url={{ share_url }}" target="_blank" rel="noopener" title="Share on LinkedIn">{% include ".icons/fontawesome/brands/linkedin.svg" %} LinkedIn</a>
+<a href="https://www.facebook.com/sharer/sharer.php?u={{ share_url }}" target="_blank" rel="noopener" title="Share on Facebook">{% include ".icons/fontawesome/brands/facebook.svg" %} Facebook</a>
+<a href="https://www.reddit.com/submit?url={{ share_url }}&title={{ share_title }}" target="_blank" rel="noopener" title="Share on Reddit">{% include ".icons/fontawesome/brands/reddit.svg" %} Reddit</a>
+<a href="https://api.whatsapp.com/send?text={{ share_title }}%20{{ share_url }}" target="_blank" rel="noopener" title="Share on WhatsApp">{% include ".icons/fontawesome/brands/whatsapp.svg" %} WhatsApp</a>
+<a href="https://t.me/share/url?url={{ share_url }}&text={{ share_title }}" target="_blank" rel="noopener" title="Share on Telegram">{% include ".icons/fontawesome/brands/telegram.svg" %} Telegram</a>
+<a href="mailto:?subject={{ share_title }}&body={{ share_url }}" title="Share by email">{% include ".icons/fontawesome/solid/envelope.svg" %} Email</a>
+<button type="button" title="Copy link" onclick="navigator.clipboard.writeText('{{ page.canonical_url }}');this.lastChild.textContent=' Copied!'">{% include ".icons/fontawesome/solid/link.svg" %}<span> Copy link</span></button>
+</div>
+</div>
+{% endif %}
+{% if not page.is_homepage and page.meta.comments != false %}
+<h2 id="__comments">{{ lang.t("meta.comments") }}</h2>
+<script src="https://giscus.app/client.js"
+        data-repo="jeanpaulnk/JPN365Labs"
+        data-repo-id="R_kgDOVbLcuw"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOVbLcu84DJ7Z0"
+        data-mapping="pathname"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+<script>
+  var giscus = document.querySelector("script[src*=giscus]")
+  var palette = __md_get("__palette")
+  if (palette && typeof palette.color === "object") {
+    var theme = palette.color.scheme === "slate" ? "transparent_dark" : "light"
+    giscus.setAttribute("data-theme", theme)
+  }
+  document.addEventListener("DOMContentLoaded", function () {
+    var ref = document.querySelector("[data-md-component=palette]")
+    if (!ref) return
+    ref.addEventListener("change", function () {
+      var palette = __md_get("__palette")
+      if (palette && typeof palette.color === "object") {
+        var theme = palette.color.scheme === "slate" ? "transparent_dark" : "light"
+        var frame = document.querySelector(".giscus-frame")
+        if (frame) frame.contentWindow.postMessage(
+          { giscus: { setConfig: { theme } } }, "https://giscus.app")
+      }
+    })
+  })
+</script>
+{% endif %}
