@@ -1,3 +1,4 @@
+extra: {social: [{icon: fontawesome/brands/linkedin, link: 'https://www.linkedin.com/in/jeanpaulnkundabose/', name: LinkedIn}, {icon: fontawesome/brands/x-twitter, link: 'https://x.com/Paulnkundabose', name: X (@Paulnkundabose)}]}
 extra_css: [stylesheets/extra.css]
 site_url: https://jeanpaulnk.github.io/SE-Exchange-Online-Lab-Notes/
 repo_url: https://github.com/jeanpaulnk/SE-Exchange-Online-Lab-Notes
