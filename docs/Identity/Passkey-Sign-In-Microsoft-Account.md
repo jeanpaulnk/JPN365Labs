@@ -2,9 +2,6 @@
 
 How to create a passkey for a **personal Microsoft account** (Outlook.com, Hotmail, Xbox, OneDrive personal) and use it to sign in without a password.
 
-!!! note "Originally published on GitHub"
-    First shared in [Super-Easy-sign-in-](https://github.com/jeanpaulnk/Super-Easy-sign-in-). Reworked here with the current Microsoft account steps.
-
 ## What a passkey is
 
 A passkey replaces your password with a key pair. The private key stays on your device, phone, password manager or security key. You unlock it with the same face, fingerprint or PIN you use to unlock the device.
