@@ -1,4 +1,4 @@
-extra: {social: [{icon: fontawesome/brands/linkedin, link: 'https://www.linkedin.com/in/jeanpaulnkundabose/', name: LinkedIn}, {icon: fontawesome/brands/x-twitter, link: 'https://x.com/Paulnkundabose', name: X (@Paulnkundabose)}]}
+extra: {social: [{icon: fontawesome/brands/linkedin, link: 'https://www.linkedin.com/in/jeanpaulnkundabose/', name: LinkedIn}, {icon: fontawesome/brands/x-twitter, link: 'https://x.com/Paulnkundabose', name: X (@Paulnkundabose)}, {icon: fontawesome/brands/microsoft, link: 'https://learn.microsoft.com/en-au/users/jeanpaulnkundabose/', name: Microsoft Learn}]}
 extra_css: [stylesheets/extra.css]
 site_url: https://jeanpaulnk.github.io/JPN365Labs/
 repo_url: https://github.com/jeanpaulnk/JPN365Labs
