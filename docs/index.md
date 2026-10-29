@@ -23,3 +23,9 @@ Hands-on lab notes on Exchange Online mail flow, connectors and relays.
 | Article | Description |
 |---|---|
 | [Stellar Converter for EDB Review](Tools/Stellar-Converter-for-EDB-Review.md) | Hands-on review of an EDB-to-PST converter for offline and hosted Exchange databases. |
+
+## Identity
+
+| Article | Description |
+|---|---|
+| [Sign in to a Microsoft Account with a Passkey](Identity/Passkey-Sign-In-Microsoft-Account.md) | Create a passkey for a personal Microsoft account and sign in with face, fingerprint, PIN or security key instead of a password. |
