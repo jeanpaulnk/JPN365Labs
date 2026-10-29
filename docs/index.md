@@ -1,6 +1,6 @@
-# SE-Exchange Online Lab Notes
+# JPN365Labs
 
-Hands-on lab notes on Exchange Online mail flow, connectors and relays.
+Hands-on lab notes on Exchange Online, Outlook and Microsoft 365 identity.
 
 !!! info
     All domains, IP addresses and names in these notes are fictional (domain.com, relay.domain.com, 203.0.113.0/24).
@@ -29,3 +29,9 @@ Hands-on lab notes on Exchange Online mail flow, connectors and relays.
 | Article | Description |
 |---|---|
 | [Sign in to a Microsoft Account with a Passkey](Identity/Passkey-Sign-In-Microsoft-Account.md) | Create a passkey for a personal Microsoft account and sign in with face, fingerprint, PIN or security key instead of a password. |
+
+## Outlook
+
+| Article | Description |
+|---|---|
+| [Mark Outlook Email as Read with PowerShell](Outlook/Mark-Email-As-Read-PowerShell.md) | Mark every unread item in a folder as read, with classic Outlook (COM) on the PC or server-side with Microsoft Graph. |
