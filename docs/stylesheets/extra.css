@@ -10,3 +10,6 @@
 .md-footer-meta {
   background-color: #424242;
 }
+/* Force colours over the theme defaults */
+.md-header, .md-tabs { background-color: #2e7d32 !important; }
+.md-footer, .md-footer-meta { background-color: #424242 !important; }
