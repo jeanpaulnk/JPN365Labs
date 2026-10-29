@@ -1,4 +1,4 @@
-# Exchange Online Lab Notes
+# SE-Exchange Online Lab Notes
 
 Hands-on lab notes on Exchange Online mail flow, connectors and relays.
 
