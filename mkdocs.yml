@@ -2,8 +2,8 @@ extra: {social: [{icon: fontawesome/brands/linkedin, link: 'https://www.linkedin
 extra_css: [stylesheets/extra.css]
 site_url: https://jeanpaulnk.github.io/SE-Exchange-Online-Lab-Notes/
 repo_url: https://github.com/jeanpaulnk/SE-Exchange-Online-Lab-Notes
-site_name: 'SE-Exchange Online Lab Notes'
-site_description: 'Hands-on notes on Exchange Online mail flow, connectors and relays'
+site_name: 'JPN365Labs'
+site_description: 'Hands-on lab notes on Exchange Online, Outlook and Microsoft 365 identity'
 edit_uri: edit/main/docs/
 docs_dir: 'docs'
 theme:
