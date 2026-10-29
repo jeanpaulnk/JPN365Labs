@@ -1,3 +1,4 @@
+extra_css: [stylesheets/extra.css]
 site_url: https://jeanpaulnk.github.io/SE-Exchange-Online-Lab-Notes/
 repo_url: https://github.com/jeanpaulnk/SE-Exchange-Online-Lab-Notes
 site_name: 'SE-Exchange Online Lab Notes'
