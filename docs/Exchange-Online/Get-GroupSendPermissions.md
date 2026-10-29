@@ -2,9 +2,6 @@
 
 Lists every Distribution List (DL), Dynamic Distribution List (DDL) and Microsoft 365 group on which a given user holds **Send As** or **Send on Behalf** permission in Exchange Online.
 
-!!! note "Originally published on GitHub"
-    This script was first shared in [PowerShell-script-for-listing-group-permissions](https://github.com/jeanpaulnk/PowerShell-script-for-listing-group-permissions). That version has been reworked here into a single script.
-
 ## Requirements
 
 - The [ExchangeOnlineManagement](https://learn.microsoft.com/powershell/exchange/exchange-online-powershell-v2) module.
