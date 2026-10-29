@@ -16,6 +16,7 @@ Hands-on lab notes on Exchange Online mail flow, connectors and relays.
 | Article | Description |
 |---|---|
 | [Cross-Tenant Message Recall in Exchange Online](Exchange-Online/Cross-Tenant-Message-Recall.md) | How Message Recall now works across trusted Microsoft 365 tenants, and how to enable it and manage the allow-list with PowerShell. |
+| [Get-GroupSendPermissions](Exchange-Online/Get-GroupSendPermissions.md) | List every DL, DDL and Microsoft 365 group on which a user has Send As or Send on Behalf permission. |
 
 ## Tools
 
