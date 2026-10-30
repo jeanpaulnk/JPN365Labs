@@ -13,3 +13,6 @@
 /* Force colours over the theme defaults */
 .md-header, .md-tabs { background-color: #2e7d32 !important; }
 .md-footer, .md-footer-meta { background-color: #424242 !important; }
+
+/* Hide the duplicate site name above the left menu on desktop */
+@media screen and (min-width: 76.25em) { .md-nav--primary > .md-nav__title { display: none; } }
