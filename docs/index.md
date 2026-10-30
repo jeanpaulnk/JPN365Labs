@@ -2,9 +2,6 @@
 
 Hands-on lab notes on Exchange Online, Outlook and Microsoft 365 identity.
 
-!!! info
-    All domains, IP addresses and names in these notes are fictional (domain.com, relay.domain.com, 203.0.113.0/24).
-
 ## Transport
 
 | Article | Description |
