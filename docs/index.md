@@ -1,6 +1,10 @@
+---
+title: Home
+---
+
 # JPN365Labs
 
-Hands-on lab notes on Exchange Online, Outlook and Microsoft 365 identity.
+Hands-on lab notes on Exchange Online, Outlook, Security & Compliance and Cloud identity.
 
 ## Transport
 
